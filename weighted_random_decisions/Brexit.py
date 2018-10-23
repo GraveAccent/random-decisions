@@ -5,6 +5,6 @@ from random import randint
 
 
 decision_num = randint(0, 33551983)
-decision = "leave" if decision_num < 17410742 else "remain"
+decision = "leave" if decision_num < 17410742 else "remain in"
 
 print("Britain will {} the European Union.".format(decision))
